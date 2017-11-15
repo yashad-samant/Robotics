@@ -1,0 +1,4 @@
+Only one Matlab file is used named project2. No functions were used. 
+The most difficult part in the project was to identify the loop breaking conditions, because for higher accuracy the error was not converging and we needed one more deciding factor to break the loop. While it was very fundamental, it took some time for me to figurre it out.
+It seems that two points are just outside the worspace of the robot, hence it becomes difficult for the robot to reach it creating a singularity. To rectify this, we can design the trajectory by using the interpolation methods learnt in the course making sure that the points are fairly inside the workspace.
+    
